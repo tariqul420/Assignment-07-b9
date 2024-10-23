@@ -35,11 +35,25 @@ function App() {
     const remainingPreparing = tables.filter(prepar => prepar.recipe_id !== preparing.recipe_id)
     setTables(remainingPreparing)
 
-    cook.map(cookTime => setMin(cookTime.preparing_time + min))
-    cook.map(calory => setCalories(calories + calory.calories))
+    // cook.map(cookTime => setMin(cookTime.preparing_time + min))
+    // cook.map(calory => setCalories(calories + calory.calories))
 
     setCook([...cook, preparing])
   }
+
+  useEffect(() => {
+    const totalCal = cook.reduce((pre, cr) => {
+      return pre + cr.calories
+    }, 0)
+    setCalories(totalCal)
+  }, [cook])
+
+  useEffect(() => {
+    const totalMin = cook.reduce((pre, cr) => {
+      return pre + cr.preparing_time
+    }, 0)
+    setMin(totalMin)
+  }, [cook])
 
   return (
     <>

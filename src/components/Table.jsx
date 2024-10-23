@@ -36,6 +36,8 @@ const Table = ({ recipe, handelPreparing, cooking, min, calories }) => {
                         {
                             cooking.map(res => <CurrentCook key={res.recipe_id} recipe={res}></CurrentCook>)
                         }
+                        <td></td>
+                        <td></td>
                         <td>Total Min: {min}</td>
                         <td>Total Calories: {calories}</td>
                     </tbody>
@@ -49,5 +51,7 @@ Table.propTypes = {
     recipe: PropTypes.array.isRequired,
     cooking: PropTypes.array.isRequired,
     handelPreparing: PropTypes.func.isRequired,
+    min: PropTypes.number.isRequired,
+    calories: PropTypes.number.isRequired,
 }
 export default Table;
