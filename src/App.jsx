@@ -29,7 +29,8 @@ function App() {
   }
 
   const handelPreparing = (preparing) => {
-    console.log(preparing);
+    const remainingPreparing = tables.filter(prepar => prepar.recipe_id !== preparing.recipe_id)
+    setTables(remainingPreparing)
   }
 
   return (
