@@ -10,8 +10,8 @@
                 "200 g basil leaf",
                 "400 g mushroom"
             ],
-            "preparing_time": "30 min",
-            "calories": "320 calories",
+            "preparing_time": 30,
+            "calories": 320,
             "recipe_image": "../src/assets/1.jpg"
         },
         {
@@ -25,8 +25,8 @@
                 "1 onion",
                 "2 cloves garlic"
             ],
-            "preparing_time": "45 min",
-            "calories": "600 calories",
+            "preparing_time": 45,
+            "calories": 600,
             "recipe_image": "../src/assets/2.jpg"
         },
         {
@@ -40,8 +40,8 @@
                 "50 ml soy sauce",
                 "2 tbsp olive oil"
             ],
-            "preparing_time": "20 min",
-            "calories": "220 calories",
+            "preparing_time": 20,
+            "calories": 220,
             "recipe_image": "../src/assets/3.jpg"
         },
         {
@@ -55,8 +55,8 @@
                 "50 g cheese",
                 "1 tomato"
             ],
-            "preparing_time": "25 min",
-            "calories": "450 calories",
+            "preparing_time": 25,
+            "calories": 450,
             "recipe_image": "../src/assets/4.jpg"
         },
         {
@@ -70,8 +70,8 @@
                 "30 g parmesan cheese",
                 "3 tbsp Caesar dressing"
             ],
-            "preparing_time": "15 min",
-            "calories": "350 calories",
+            "preparing_time": 15,
+            "calories": 350,
             "recipe_image": "../src/assets/5.jpg"
         },
         {
@@ -85,8 +85,8 @@
                 "30 g butter",
                 "50 ml maple syrup"
             ],
-            "preparing_time": "20 min",
-            "calories": "400 calories",
+            "preparing_time": 20,
+            "calories": 400,
             "recipe_image": "../src/assets/6.jpg"
         }
     ]

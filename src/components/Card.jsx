@@ -16,8 +16,8 @@ const Card = ({ card, handelCookBtn }) => {
             </ul>
             <hr className='my-4' />
             <div className='flex gap-6'>
-                <p className='text-color-finely  font-semibold'><i className="fa-regular fa-clock"></i> {preparing_time}</p>
-                <p className='text-color-finely  font-semibold'><i className="fa-solid fa-fire-flame-curved"></i> {calories}</p>
+                <p className='text-color-finely  font-semibold'><i className="fa-regular fa-clock"></i> {preparing_time} Min</p>
+                <p className='text-color-finely  font-semibold'><i className="fa-solid fa-fire-flame-curved"></i> {calories} Calories</p>
             </div>
             <button onClick={() => handelCookBtn(card)} className='btn mt-7 rounded-full bg-btn-primary font-bold text-[18px]'>Want to Cook</button>
         </div>

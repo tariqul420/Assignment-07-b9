@@ -9,6 +9,9 @@ import { useEffect } from "react"
 
 function App() {
   const [tables, setTables] = useState([])
+  const [cook, setCook] = useState([])
+  const [min, setMin] = useState(0)
+  const [calories, setCalories] = useState(0)
 
   const [cards, serCards] = useState([])
   useEffect(() => {
@@ -31,6 +34,11 @@ function App() {
   const handelPreparing = (preparing) => {
     const remainingPreparing = tables.filter(prepar => prepar.recipe_id !== preparing.recipe_id)
     setTables(remainingPreparing)
+
+    cook.map(cookTime => setMin(cookTime.preparing_time + min))
+    cook.map(calory => setCalories(calories + calory.calories))
+
+    setCook([...cook, preparing])
   }
 
   return (
@@ -48,7 +56,11 @@ function App() {
           }
         </div>
         <div className="w-[35%]">
-          <Table recipe={tables} handelPreparing={handelPreparing}></Table>
+          <Table recipe={tables}
+            handelPreparing={handelPreparing}
+            cooking={cook}
+            min={min}
+            calories={calories}></Table>
         </div>
       </div>
     </>
