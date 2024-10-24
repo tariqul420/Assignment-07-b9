@@ -15,7 +15,7 @@ function App() {
 
   const [cards, serCards] = useState([])
   useEffect(() => {
-    fetch("recipes.json")
+    fetch("/recipes.json")
       .then(res => res.json())
       .then(data => serCards(data.recipes))
   }, [])

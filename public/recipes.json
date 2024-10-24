@@ -1,93 +1,94 @@
 {
     "recipes": [
-        {
-            "recipe_id": 1,
-            "recipe_name": "Grilled Chicken with Basil",
-            "short_description": "A simple grilled chicken recipe with fresh basil and mushrooms.",
-            "ingredients": [
-                "550 g chicken",
-                "120 ml soy sauce",
-                "200 g basil leaf",
-                "400 g mushroom"
-            ],
-            "preparing_time": 30,
-            "calories": 320,
-            "recipe_image": "https://i.postimg.cc/tTZ1QKs3/1.jpg"
-        },
-        {
-            "recipe_id": 2,
-            "recipe_name": "Spaghetti Bolognese",
-            "short_description": "A classic Italian pasta dish with a rich meat sauce.",
-            "ingredients": [
-                "500 g spaghetti",
-                "300 g ground beef",
-                "200 g tomato sauce",
-                "1 onion",
-                "2 cloves garlic"
-            ],
-            "preparing_time": 45,
-            "calories": 600,
-            "recipe_image": "https://i.postimg.cc/cLhtQMqn/2.jpg"
-        },
-        {
-            "recipe_id": 3,
-            "recipe_name": "Vegetable Stir-Fry",
-            "short_description": "A healthy mix of vegetables stir-fried with soy sauce.",
-            "ingredients": [
-                "200 g broccoli",
-                "150 g carrots",
-                "100 g bell pepper",
-                "50 ml soy sauce",
-                "2 tbsp olive oil"
-            ],
-            "preparing_time": 20,
-            "calories": 220,
-            "recipe_image": "https://i.postimg.cc/YSSG8Gky/3.jpg"
-        },
-        {
-            "recipe_id": 4,
-            "recipe_name": "Beef Tacos",
-            "short_description": "Tacos with seasoned ground beef and fresh toppings.",
-            "ingredients": [
-                "300 g ground beef",
-                "6 taco shells",
-                "100 g lettuce",
-                "50 g cheese",
-                "1 tomato"
-            ],
-            "preparing_time": 25,
-            "calories": 450,
-            "recipe_image": "https://i.postimg.cc/k5hVHJgM/4.jpg"
-        },
-        {
-            "recipe_id": 5,
-            "recipe_name": "Chicken Caesar Salad",
-            "short_description": "A classic Caesar salad topped with grilled chicken.",
-            "ingredients": [
-                "300 g chicken breast",
-                "100 g romaine lettuce",
-                "50 g croutons",
-                "30 g parmesan cheese",
-                "3 tbsp Caesar dressing"
-            ],
-            "preparing_time": 15,
-            "calories": 350,
-            "recipe_image": "https://i.postimg.cc/hvVfhVbh/5.jpg"
-        },
-        {
-            "recipe_id": 6,
-            "recipe_name": "Pancakes with Maple Syrup",
-            "short_description": "Fluffy pancakes served with butter and maple syrup.",
-            "ingredients": [
-                "200 g flour",
-                "300 ml milk",
-                "2 eggs",
-                "30 g butter",
-                "50 ml maple syrup"
-            ],
-            "preparing_time": 20,
-            "calories": 400,
-            "recipe_image": "https://i.postimg.cc/zBsyJxh9/6.jpg"
-        }
+      {
+        "recipe_id": 1,
+        "recipe_name": "Grilled Chicken with Basil",
+        "short_description": "A simple grilled chicken recipe with fresh basil and mushrooms.",
+        "ingredients": [
+          "550 g chicken",
+          "120 ml soy sauce",
+          "200 g basil leaf",
+          "400 g mushroom"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories",
+        "recipe_image": "https://img.freepik.com/free-photo/flat-lay-food-ingredients-with-herbs-notebook_23-2148834741.jpg"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "A classic Italian pasta dish with a rich meat sauce.",
+        "ingredients": [
+          "500 g spaghetti",
+          "300 g ground beef",
+          "200 g tomato sauce",
+          "1 onion",
+          "2 cloves garlic"
+        ],
+        "preparing_time": "45 min",
+        "calories": "600 calories",
+        "recipe_image": "https://img.freepik.com/free-photo/flat-lay-food-ingredients-with-mushrooms_23-2148834772.jpg"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_name": "Vegetable Stir-Fry",
+        "short_description": "A healthy mix of vegetables stir-fried with soy sauce.",
+        "ingredients": [
+          "200 g broccoli",
+          "150 g carrots",
+          "100 g bell pepper",
+          "50 ml soy sauce",
+          "2 tbsp olive oil"
+        ],
+        "preparing_time": "20 min",
+        "calories": "220 calories",
+        "recipe_image": "https://img.freepik.com/premium-photo/food-sources-omega-3-healthy-fats-dark-background-top-view-copy-space-vegetables-seafood-nut-seed_118925-1375.jpg"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_name": "Beef Tacos",
+        "short_description": "Tacos with seasoned ground beef and fresh toppings.",
+        "ingredients": [
+          "300 g ground beef",
+          "6 taco shells",
+          "100 g lettuce",
+          "50 g cheese",
+          "1 tomato"
+        ],
+        "preparing_time": "25 min",
+        "calories": "450 calories",
+        "recipe_image": "https://img.freepik.com/free-photo/top-view-food-ingredients-with-chickpeas_23-2148834784.jpg"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "A classic Caesar salad topped with grilled chicken.",
+        "ingredients": [
+          "300 g chicken breast",
+          "100 g romaine lettuce",
+          "50 g croutons",
+          "30 g parmesan cheese",
+          "3 tbsp Caesar dressing"
+        ],
+        "preparing_time": "15 min",
+        "calories": "350 calories",
+        "recipe_image": "https://img.freepik.com/free-photo/top-view-food-ingredients-with-soup-veggies_23-2148834779.jpg"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_name": "Pancakes with Maple Syrup",
+        "short_description": "Fluffy pancakes served with butter and maple syrup.",
+        "ingredients": [
+          "200 g flour",
+          "300 ml milk",
+          "2 eggs",
+          "30 g butter",
+          "50 ml maple syrup"
+        ],
+        "preparing_time": "20 min",
+        "calories": "400 calories",
+        "recipe_image": "https://img.freepik.com/premium-photo/top-view-food-ingredients-with-herbs-lemons_23-2148834681.jpg"
+      }
     ]
-}
+  }
+  
